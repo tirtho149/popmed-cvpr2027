@@ -29,7 +29,7 @@ Pushing to `main` redeploys within a minute or two.
 | Dates | `index.html` `#dates` table; official dates come from the CVPR call |
 | Speakers | `index.html` `#speakers`; add a person only after they confirm |
 | Call for papers | `index.html` `#cfp`; remove the "Provisional" notice only after acceptance |
-| Organizers | `index.html` `#organizers` (initial avatars; add photos only with permission) |
+| Organizers | `index.html` `#organizers`; photos in `assets/people/` (320 px square crops of each organizer's official headshot; originals and source URLs in the project repo under `sources/organizers/headshots_original/`) |
 | Evidence figure and numbers | rerun the analysis scripts, then copy `community_interest.png` and update the four stat tiles |
 | Venn figure | `figures/src/make_venn.py` in the project repo → `expertise_venn_web.svg` |
 | Colors, type | `assets/style.css` (`:root` tokens) |

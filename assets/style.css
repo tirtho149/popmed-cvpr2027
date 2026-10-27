@@ -144,8 +144,7 @@ tr:last-child td { border-bottom: 0; }
 /* Organizers */
 .people { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
 .person { display: flex; gap: 14px; align-items: flex-start; }
-.avatar { flex: 0 0 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; font-family: var(--serif); font-weight: 700; font-size: 1.15rem; color: #fff; }
-.av1 { background: #2f5f8f; } .av2 { background: #5b4a8b; } .av3 { background: #1f6a63; } .av4 { background: #4a5663; } .av5 { background: #6b5a2e; }
+.avatar { flex: 0 0 80px; width: 80px; height: 80px; border-radius: 50%; object-fit: cover; background: var(--tint-blue); border: 2px solid #fff; box-shadow: 0 0 0 1px var(--line); }
 .person h3 { margin: 0; }
 .person .aff { color: var(--ink-3); font-size: .9rem; margin: 2px 0 6px; }
 .person p { font-size: .93rem; color: var(--ink-2); margin: 0 0 6px; }
