@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<script>document.documentElement.classList.add("js")</script>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>POPMed — Pixels, Omics, and Patients (proposed CVPR 2027 workshop)</title>
+<meta name="description" content="POPMed is a proposed CVPR 2027 workshop on efficient and trustworthy multimodal vision for healthcare: medical imaging with molecular data and patient signals, under real resource and reliability constraints. Acceptance pending.">
+<meta property="og:title" content="POPMed — Pixels, Omics, and Patients">
+<meta property="og:description" content="Proposed CVPR 2027 workshop (acceptance pending): efficient and trustworthy multimodal vision for healthcare.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/og-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#eef4fb">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="POPMed home">POP<span>Med</span></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="main" id="nav" aria-label="Sections">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pillars">Pillars</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#evidence">Evidence</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#cfp">Call for papers</a></li>
+        <li><a href="#dates">Dates</a></li>
+        <li><a href="#organizers">Organizers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<div class="hero" id="top">
+  <div class="wrap">
+    <p class="status" role="status">Proposed CVPR 2027 workshop — acceptance pending</p>
+    <h1>Pixels, Omics, and Patients</h1>
+    <p class="sub">Efficient and Trustworthy Multimodal Vision for Healthcare</p>
+    <p class="lede">Medical vision models increasingly work alongside molecular data and patient signals. POPMed asks how to build vision-centred multimodal models that stay accurate, affordable, and reliable when modalities go missing, labels are scarce, hospitals differ, and hardware is limited.</p>
+    <div class="meta">
+      <span><b>Proposed for:</b> CVPR 2027 workshops, June 20–21, 2027</span>
+      <span><b>Venue:</b> Seattle, USA (with the main conference)</span>
+      <span><b>Format:</b> half day, in person, talks recorded</span>
+    </div>
+    <div class="btns">
+      <a class="btn primary" href="#about">About the workshop</a>
+      <a class="btn ghost" href="#topics">Topics</a>
+      <a class="btn ghost" href="#organizers">Organizers</a>
+    </div>
+  </div>
+</div>
+
+<section id="about" aria-labelledby="about-h">
+  <div class="wrap grid g2">
+    <div>
+      <h2 id="about-h">Why this workshop</h2>
+      <p>Segmentation masks feed risk models, histology is paired with gene expression, and imaging is read alongside wearable signals and health records. Yet most methods are still judged on accuracy alone, with every modality present, data from one site, and generous compute.</p>
+      <p>POPMed brings together three communities that seldom share a room: <strong>efficient medical vision</strong>, <strong>imaging–omics representation learning</strong>, and <strong>digital health</strong>. Its organizing principle is a joint evaluation contract: report <em>accuracy</em>, <em>resource cost</em>, and <em>reliability</em> together.</p>
+      <p><strong>Why a vision workshop?</strong> Images, video, volumes, and slides are the primary input or output of every contribution; other modalities add context to a visual task rather than replace it.</p>
+    </div>
+    <div>
+      <h3>Questions we want to answer</h3>
+      <ol class="questions">
+        <li>When a modality is missing at the point of care, how much does a multimodal vision model lose, and how should it fail?</li>
+        <li>Do image-derived representations carry real biological signal, and how would we know?</li>
+        <li>What accuracy is worth a 10× increase in compute or memory in a clinic with modest hardware?</li>
+        <li>Which reliability checks (external sites, calibration, subgroups) should be standard for multimodal medical vision?</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="pillars" aria-labelledby="pillars-h">
+  <div class="wrap">
+    <h2 id="pillars-h">Research pillars</h2>
+    <p class="kicker">Three scientific axes, joined by shared constraints.</p>
+    <div class="grid g3">
+      <article class="card blue">
+        <span class="tag">Pillar 1</span>
+        <h3>Efficient medical vision and segmentation</h3>
+        <ul><li>2D/3D segmentation, detection, registration</li><li>Lightweight decoders, pruning, quantization</li><li>Edge and on-device deployment</li></ul>
+      </article>
+      <article class="card lav">
+        <span class="tag">Pillar 2</span>
+        <h3>Imaging–omics and biological representation</h3>
+        <ul><li>Histology with spatial or bulk transcriptomics</li><li>Radiogenomics and molecular subtyping</li><li>Biologically structured representations</li></ul>
+      </article>
+      <article class="card teal">
+        <span class="tag">Pillar 3</span>
+        <h3>Digital health and clinical translation</h3>
+        <ul><li>Imaging with health records and clinical text</li><li>Wearable and physiological signals</li><li>Outcomes, workflow, and external validation</li></ul>
+      </article>
+    </div>
+    <p class="strip"><b>Cross-cutting:</b> limited labels and paired data · missing modalities · cross-institution generalization and calibration · interpretability grounded in biology or anatomy · compute, memory, and latency · fairness, privacy, and clinically meaningful evaluation.</p>
+  </div>
+</section>
+
+<section id="intersection" aria-labelledby="int-h">
+  <div class="wrap">
+    <h2 id="int-h">Where the expertise meets</h2>
+    <p class="kicker">Each faculty organizer anchors one pillar; the workshop sits where all three meet. The circles show complementary expertise and proposed thematic links. They do not imply that each organizer has published in every overlap.</p>
+    <figure class="venn">
+      <a href="assets/expertise_venn_web.svg" title="Open the diagram at full size"><img src="assets/expertise_venn_web.svg" width="650" height="380" alt="Three-circle diagram. Circle one, efficient medical vision and segmentation, Md Mostafijur Rahman. Circle two, imaging–omics and biological representation, Md Tauhidul Islam. Circle three, digital health and clinical translation, Sheikh Mohammed Shariful Islam. Overlaps: compute-aware fusion of images and molecular data; deployable segmentation validated in clinical workflows; image-derived biomarkers linked to patient outcomes. Centre: reliable, resource-aware multimodal vision for patient-centred healthcare."></a>
+      <figcaption>Complementary organizer expertise and the workshop's intersection. Tap the diagram to open it full size.</figcaption>
+    </figure>
+    <dl class="venn-text" aria-label="Diagram in text form">
+      <div><dt>Efficient medical vision and segmentation</dt><dd>Md Mostafijur Rahman</dd></div>
+      <div><dt>Imaging–omics and biological representation</dt><dd>Md Tauhidul Islam</dd></div>
+      <div><dt>Digital health and clinical translation</dt><dd>Sheikh Mohammed Shariful Islam</dd></div>
+      <div class="centre"><dt>Where all three meet</dt><dd>Reliable, resource-aware multimodal vision for patient-centred healthcare</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="topics" aria-labelledby="topics-h">
+  <div class="wrap grid g2">
+    <div>
+      <h2 id="topics-h">Topics of interest</h2>
+      <ul>
+        <li>Efficient 2D/3D medical image segmentation, detection, and registration</li>
+        <li>Imaging–omics integration and biologically structured representations</li>
+        <li>Imaging with health records, clinical text, wearables, and longitudinal data</li>
+        <li>Learning with missing modalities and limited paired or labelled data</li>
+        <li>Cross-institution generalization, calibration, uncertainty, and subgroup fairness</li>
+        <li>Interpretability grounded in anatomy, pathology, or molecular mechanism</li>
+        <li>Benchmarks and reporting that measure accuracy, cost, and reliability together</li>
+      </ul>
+    </div>
+    <div class="criteria">
+      <h3>Does my paper fit?</h3>
+      <p>Strong submissions (1) put visual data at the centre of the task, and report (2) accuracy, (3) a resource profile (parameters, FLOPs or latency, memory, hardware), and (4) at least one reliability check: an external site, missing-modality behaviour, calibration, or subgroup results.</p>
+      <p>Work on non-image data alone (for example, omics or EHR models without a visual task) is better suited to other venues.</p>
+    </div>
+  </div>
+</section>
+
+<section id="evidence" aria-labelledby="ev-h">
+  <div class="wrap evidence">
+    <h2 id="ev-h">Evidence from the literature</h2>
+    <p class="kicker">A reproducible scan of every main-conference paper at CVPR, WACV, ICCV, and ECCV from 2022 to 2026, classified from titles and abstracts with published rules and a hand-checked audit. Observed counts, not a forecast.</p>
+    <div class="stats">
+      <div class="stat"><div class="n">29,429</div><div class="l">main-conference papers, 15 editions</div></div>
+      <div class="stat"><div class="n">1,157</div><div class="l">biomedical vision papers (3.9%)</div></div>
+      <div class="stat"><div class="n">151</div><div class="l">pair images with a non-image biomedical modality</div></div>
+      <div class="stat"><div class="n">23</div><div class="l">also report efficiency or reliability (manually reviewed)</div></div>
+    </div>
+    <picture>
+      <source media="(max-width: 700px)" srcset="assets/community_interest_stacked.png">
+      <img src="assets/community_interest.png" width="3900" height="3180" loading="lazy" alt="Three-panel chart. Panel A: for each of CVPR, WACV, ICCV and ECCV from 2022 to 2026, bars show the share of main-conference papers that are biomedical vision, with smaller nested shares for multimodal and strict-intersection papers; years with no ICCV or ECCV are marked. Panel B: within biomedical vision papers, the share with segmentation, reliability, efficiency, clinical text, records, omics, wearables, survival labels and missing-modality content. Panel C: median Crossref citations of biomedical vision papers compared with a random sample from the same edition, for 2022 to 2024 editions; biomedical papers have higher medians in 7 of 9 editions.">
+    </picture>
+    <p class="kicker" style="margin-top:8px">Open at full resolution: <a href="assets/community_interest.png">wide layout</a> · <a href="assets/community_interest_stacked.png">phone layout</a></p>
+    <p class="kicker" style="margin-top:12px">Sources: CVF Open Access, ECVA, ECCV 2026 accepted-paper list, Crossref; retrieved 27 Oct 2026. Rule-based C1 precision on a held-out audit sample: 94% (46/49). Method, data and audit are in the project repository.</p>
+  </div>
+</section>
+
+<section id="program" aria-labelledby="prog-h">
+  <div class="wrap">
+    <h2 id="prog-h">Tentative program</h2>
+    <p class="notice">Example half-day schedule from the proposal. No invited speakers have been confirmed yet; the schedule will change.</p>
+    <div class="table-scroll">
+    <table>
+      <thead><tr><th scope="col">Time (tentative)</th><th scope="col">Session</th></tr></thead>
+      <tbody>
+        <tr><td>08:30–08:40</td><td>Opening: accuracy, resources, reliability</td></tr>
+        <tr><td>08:40–09:40</td><td>Two invited talks: efficient medical vision; imaging–omics</td></tr>
+        <tr><td>09:40–10:10</td><td>Oral papers (3 × 10 min)</td></tr>
+        <tr><td>10:10–10:55</td><td>Coffee and posters</td></tr>
+        <tr><td>10:55–11:55</td><td>Two invited talks: digital health; clinical deployment and reliability</td></tr>
+        <tr><td>11:55–12:25</td><td>Panel on one shared clinical case</td></tr>
+        <tr><td>12:25–12:30</td><td>Closing</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <h3 style="margin-top:28px" id="speakers">Speakers</h3>
+    <p>Invited speakers will be announced.</p>
+  </div>
+</section>
+
+<section id="cfp" aria-labelledby="cfp-h">
+  <div class="wrap">
+    <h2 id="cfp-h">Call for papers</h2>
+    <p class="notice"><strong>Provisional, subject to workshop acceptance and final CVPR rules.</strong> Submissions are not open.</p>
+    <div class="grid g2">
+      <div>
+        <h3>Scope</h3>
+        <p>Vision-centred work on medical and biological images, video, volumes, or slides, alone or with molecular data, clinical records or text, or wearable signals. We especially welcome papers that report accuracy, resource cost, and reliability together.</p>
+      </div>
+      <div>
+        <h3>Planned tracks</h3>
+        <p>An archival long-paper track (CVPR-format, CVF workshop proceedings) and a non-archival extended-abstract track are under discussion by the organizers. Page limits, review policy, and deadlines will be announced if the workshop is accepted.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="dates" aria-labelledby="dates-h">
+  <div class="wrap">
+    <h2 id="dates-h">Important dates</h2>
+    <div class="table-scroll">
+    <table>
+      <thead><tr><th scope="col">Date</th><th scope="col">Milestone</th><th scope="col">Status</th></tr></thead>
+      <tbody>
+        <tr><td>Nov 4, 2026 (AoE)</td><td>CVPR 2027 workshop-proposal deadline</td><td><span class="pill official">official (CVPR)</span></td></tr>
+        <tr><td>Dec 22, 2026</td><td>CVPR decision on workshop proposals</td><td><span class="pill official">official (CVPR)</span></td></tr>
+        <tr><td>To be announced</td><td>Paper submission, review, and notification dates</td><td><span class="pill tent">after acceptance</span></td></tr>
+        <tr><td>June 20–21, 2027</td><td>CVPR 2027 workshop days (exact day TBD)</td><td><span class="pill official">official (CVPR)</span></td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p class="kicker" style="margin-top:12px">Official dates: <a href="https://cvpr.thecvf.com/Conferences/2027/CallForWorkshops">CVPR 2027 Call for Workshops</a> and <a href="https://cvpr.thecvf.com/Conferences/2027/Dates">CVPR 2027 Dates</a>.</p>
+  </div>
+</section>
+
+<section id="organizers" aria-labelledby="org-h">
+  <div class="wrap">
+    <h2 id="org-h">Organizers</h2>
+    <p class="kicker">Organizing roles are being finalized by the team.</p>
+    <div class="people">
+      <article class="card person">
+        <div class="avatar av1" aria-hidden="true">MR</div>
+        <div>
+          <h3>Md Mostafijur Rahman</h3>
+          <p class="aff">Assistant Professor, Electrical and Computer Engineering, Texas Tech University</p>
+          <p>Efficient and reliable medical image segmentation in 2D and 3D, including EMCAD (CVPR 2024) and EffiDec3D (CVPR 2025).</p>
+          <p class="links"><a href="https://mostafij-rahman.github.io/">Website</a></p>
+        </div>
+      </article>
+      <article class="card person">
+        <div class="avatar av2" aria-hidden="true">TI</div>
+        <div>
+          <h3>Md Tauhidul Islam</h3>
+          <p class="aff">Assistant Professor, Radiation Oncology, Stanford University</p>
+          <p>Biologically structured, image-like representations of omics data and multimodal models that integrate imaging and molecular signals.</p>
+          <p class="links"><a href="https://med.stanford.edu/profiles/md-tauhidul-islam">Profile</a></p>
+        </div>
+      </article>
+      <article class="card person">
+        <div class="avatar av3" aria-hidden="true">SI</div>
+        <div>
+          <h3>Sheikh Mohammed Shariful Islam</h3>
+          <p class="aff">Professor, Nutritional Sciences, Texas Tech University</p>
+          <p>Physician-scientist (MBBS, MPH, PhD) working on wearables, imaging, and electronic health records for cardiovascular and metabolic health.</p>
+          <p class="links"><a href="https://www.depts.ttu.edu/hs/ns/Shariful.php">Profile</a></p>
+        </div>
+      </article>
+      <article class="card person">
+        <div class="avatar av4" aria-hidden="true">KH</div>
+        <div>
+          <h3>Koushik Howlader</h3>
+          <p class="aff">Ph.D. student, Computer Science, Iowa State University</p>
+          <p>Deep learning for medical imaging, including multimodal pre-training on X-rays, ECGs, and reports.</p>
+          <p class="links"><a href="https://www.cs.iastate.edu/people/koushik-howlader">Profile</a></p>
+        </div>
+      </article>
+      <article class="card person">
+        <div class="avatar av5" aria-hidden="true">TR</div>
+        <div>
+          <h3>Tirtho Roy</h3>
+          <p class="aff">Researcher, Translational AI Center, Iowa State University</p>
+          <p>Calibration of medical vision–language models and vision–language agents.</p>
+          <p class="links"><a href="https://tirtho149.github.io/">Website</a></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="community" aria-labelledby="comm-h">
+  <div class="wrap grid g2">
+    <div>
+      <h2 id="comm-h">Community and ethics</h2>
+      <ul>
+        <li><strong>Responsible data use:</strong> state data provenance, licences, and approvals; use patient-level splits to prevent leakage.</li>
+        <li><strong>Fairness and shift:</strong> report external-site and subgroup results where possible.</li>
+        <li><strong>Clinical validity:</strong> explanations should be tested against known biology or anatomy; research models are not clinical devices.</li>
+        <li><strong>Students:</strong> student-led papers and volunteers are especially welcome.</li>
+      </ul>
+    </div>
+    <div id="contact">
+      <h2>Contact</h2>
+      <p>Questions about the proposal: <a href="mailto:tirtho@iastate.edu?subject=POPMed%20CVPR%202027%20workshop">tirtho@iastate.edu</a> (Tirtho Roy, coordinating organizer).</p>
+      <p class="kicker">This site describes a workshop proposal. It is not affiliated with or endorsed by CVPR, IEEE, or the Computer Vision Foundation.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Status:</strong> Proposed CVPR 2027 workshop — acceptance pending. Not an official CVPR page.</p>
+    <p>Last updated 27 October 2026. Figures and data were produced by the organizers; see the project repository for sources and methods.</p>
+  </div>
+</footer>
+
+<script>
+  // Mobile menu toggle; the page works fully without JavaScript.
+  const btn = document.querySelector('.menu-btn'), nav = document.getElementById('nav');
+  btn.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded', String(open));
+  });
+  nav.addEventListener('click', e => { if (e.target.tagName === 'A') { nav.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); } });
+</script>
+</body>
+</html>
