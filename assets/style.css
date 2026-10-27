@@ -121,7 +121,7 @@ figure.venn img { display: block; width: 100%; }
 .venn-text div { padding: 10px 14px; border-left: 4px solid var(--accent-2); background: var(--surface); border-radius: 0 8px 8px 0; margin-bottom: 8px; }
 .venn-text div:nth-child(2) { border-color: var(--accent-3); }
 .venn-text div:nth-child(3) { border-color: var(--accent); }
-.venn-text div.centre { border-color: #dd6b20; background: #fffaf0; }
+.venn-text div.center { border-color: #dd6b20; background: #fffaf0; }
 .venn-text dt { font-weight: 600; }
 .venn-text dd { margin: 2px 0 0; color: var(--ink-2); }
 @media (max-width: 700px) { .venn-text { display: block; } }

@@ -2,9 +2,9 @@
 
 Static site for **Pixels, Omics, and Patients: Efficient and Trustworthy
 Multimodal Vision for Healthcare (POPMed)**, a *proposed* CVPR 2027 workshop.
-**Acceptance is pending**; the site must say so until CVPR accepts the workshop.
+**Acceptance is pending**, and the site must say so until CVPR accepts the workshop.
 
-No build step, framework, or external dependency: `index.html`, `assets/style.css`,
+The site has no build step, no JavaScript library, and no external dependency; it consists of `index.html`, `assets/style.css`,
 and images. All links are relative, so the site works under a GitHub Pages
 project subpath (`https://<user>.github.io/<repo>/`).
 
@@ -30,18 +30,18 @@ Pushing to `main` redeploys within a minute or two.
 | Speakers | `index.html` `#speakers`; add a person only after they confirm |
 | Call for papers | `index.html` `#cfp`; remove the "Provisional" notice only after acceptance |
 | Organizers | `index.html` `#organizers` (initial avatars; add photos only with permission) |
-| Evidence figure and numbers | regenerate with the analysis pipeline, then copy `community_interest.png` and update the four stat tiles |
+| Evidence figure and numbers | rerun the analysis scripts, then copy `community_interest.png` and update the four stat tiles |
 | Venn figure | `figures/src/make_venn.py` in the project repo → `expertise_venn_web.svg` |
-| Colours, type | `assets/style.css` (`:root` tokens) |
+| Colors, type | `assets/style.css` (`:root` tokens) |
 
 ## Accessibility
 
-Semantic landmarks, a skip link, visible focus rings, alt text on every figure,
-tables with header cells, `prefers-reduced-motion` respected, and AA text
-contrast. The mobile menu is a progressive enhancement: without JavaScript the
+The site uses semantic landmarks, a skip link, visible focus rings, alt text on
+every figure, and tables with header cells, respects `prefers-reduced-motion`,
+and meets WCAG AA text contrast. The mobile menu is a progressive enhancement: without JavaScript the
 navigation stays visible.
 
-## Licence
+## License
 
 Text and figures: CC BY 4.0. Code (HTML/CSS/JS): MIT. See `LICENSE`. No CVPR,
 IEEE, or CVF logos are used; this site is not endorsed by them.
