@@ -1,7 +1,7 @@
-# POPMed workshop website
+# RES-Med workshop website
 
-Static site for **Pixels, Omics, and Patients: Efficient and Trustworthy
-Multimodal Vision for Healthcare (POPMed)**, a *proposed* CVPR 2027 workshop.
+Static site for **Reasoning at Every Scale: Molecules, Cells, and Patients
+(RES-Med)**, a *proposed* CVPR 2027 workshop.
 **Acceptance is pending**, and the site must say so until CVPR accepts the workshop.
 
 The site has no build step, no JavaScript library, and no external dependency; it consists of `index.html`, `assets/style.css`,
