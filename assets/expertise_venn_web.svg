@@ -6,11 +6,11 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-26T20:52:11.788035</dc:date>
+    <dc:date>2026-10-28T15:32:48.046225</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -40,7 +40,7 @@ C 131.867758 78.504121 124.418605 96.487967 124.418605 115.237209
 C 124.418605 133.986452 131.867758 151.970298 145.125474 165.228014 
 C 158.383191 178.485731 176.367037 185.934884 195.116279 185.934884 
 z
-" clip-path="url(#pdc9d81d70e)" style="fill: #c9def4; opacity: 0.7"/>
+" clip-path="url(#pd181a96de5)" style="fill: #c9def4; opacity: 0.7"/>
    </g>
    <g id="patch_3">
     <path d="M 272.883721 185.934884 
@@ -53,7 +53,7 @@ C 209.635199 78.504121 202.186047 96.487967 202.186047 115.237209
 C 202.186047 133.986452 209.635199 151.970298 222.892916 165.228014 
 C 236.150632 178.485731 254.134479 185.934884 272.883721 185.934884 
 z
-" clip-path="url(#pdc9d81d70e)" style="fill: #bfaee3; opacity: 0.7"/>
+" clip-path="url(#pd181a96de5)" style="fill: #bfaee3; opacity: 0.7"/>
    </g>
    <g id="patch_4">
     <path d="M 234 253.097674 
@@ -66,7 +66,7 @@ C 170.751479 145.666911 163.302326 163.650758 163.302326 182.4
 C 163.302326 201.149242 170.751479 219.133089 184.009195 232.390805 
 C 197.266911 245.648521 215.250758 253.097674 234 253.097674 
 z
-" clip-path="url(#pdc9d81d70e)" style="fill: #e8f7f2; opacity: 0.7"/>
+" clip-path="url(#pd181a96de5)" style="fill: #e8f7f2; opacity: 0.7"/>
    </g>
    <g id="patch_5">
     <path d="M 195.116279 185.934884 
@@ -80,7 +80,7 @@ C 124.418605 133.986452 131.867758 151.970298 145.125474 165.228014
 C 158.383191 178.485731 176.367037 185.934884 195.116279 185.934884 
 L 195.116279 185.934884 
 z
-" clip-path="url(#pdc9d81d70e)" style="fill: none; stroke: #1d4f80; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#pd181a96de5)" style="fill: none; stroke: #1d4f80; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 272.883721 185.934884 
@@ -94,7 +94,7 @@ C 202.186047 133.986452 209.635199 151.970298 222.892916 165.228014
 C 236.150632 178.485731 254.134479 185.934884 272.883721 185.934884 
 L 272.883721 185.934884 
 z
-" clip-path="url(#pdc9d81d70e)" style="fill: none; stroke-dasharray: 6.5,3.25; stroke-dashoffset: 0; stroke: #8b78c6; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#pd181a96de5)" style="fill: none; stroke-dasharray: 6.5,3.25; stroke-dashoffset: 0; stroke: #8b78c6; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 234 253.097674 
@@ -108,60 +108,61 @@ C 163.302326 201.149242 170.751479 219.133089 184.009195 232.390805
 C 197.266911 245.648521 215.250758 253.097674 234 253.097674 
 L 234 253.097674 
 z
-" clip-path="url(#pdc9d81d70e)" style="fill: none; stroke-dasharray: 1.56,2.34; stroke-dashoffset: 0; stroke: #2e7d6b; stroke-width: 1.3; stroke-linejoin: miter"/>
+" clip-path="url(#pd181a96de5)" style="fill: none; stroke-dasharray: 1.56,2.34; stroke-dashoffset: 0; stroke: #2e7d6b; stroke-width: 1.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
-    <path d="M 124.400681 62.935665 
-Q 142.084061 66.81667 159.767442 70.697674 
+    <path d="M 121.682982 62.339206 
+Q 140.725212 66.51844 159.767442 70.697674 
 " style="fill: none; stroke: #1d4f80; stroke-width: 0.8; stroke-linecap: round"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 700; font-size: 8.4px; font-family: 'Arial'; fill: #1d4f80" transform="translate(26.116892 50.202959)">Efficient medical vision</text>
-    <text style="font-weight: 700; font-size: 8.4px; font-family: 'Arial'; fill: #1d4f80" transform="translate(47.599892 58.146209)">and segmentation</text>
+    <text style="fill: #1d4f80; font: 700 8.4px 'Arial'" transform="translate(26.116892 49.535736)">Efficient medical vision</text>
+    <text style="fill: #1d4f80; font: 700 8.4px 'Arial'" transform="translate(47.599892 57.927494)">and segmentation</text>
    </g>
    <g id="text_2">
-    <text style="font-style: italic; font-size: 7.8px; font-family: 'Arial'; text-anchor: end; fill: #1f2933" x="119.469767" y="72.727503" transform="rotate(-0 119.469767 72.727503)">Md Mostafijur Rahman</text>
+    <text style="fill: #1f2933; font: italic 7.8px 'Arial'; text-anchor: end" x="119.469767" y="72.727503" transform="rotate(-0 119.469767 72.727503)">Md Mostafijur Rahman</text>
    </g>
    <g id="text_3">
-    <text style="font-size: 7px; font-family: 'Arial'; fill: #4a5763" transform="translate(55.660392 86.570208)">2D/3D segmentation</text>
-    <text style="font-size: 7px; font-family: 'Arial'; fill: #4a5763" transform="translate(69.409924 93.796478)">model efficiency</text>
+    <text style="fill: #4a5763; font: 7px 'Arial'" transform="translate(55.660392 86.644023)">2D/3D segmentation</text>
+    <text style="fill: #4a5763; font: 7px 'Arial'" transform="translate(69.405549 93.722663)">model efficiency</text>
    </g>
    <g id="patch_9">
-    <path d="M 344.347294 63.058052 
-Q 326.289926 66.877863 308.232558 70.697674 
+    <path d="M 347.592903 62.371484 
+Q 327.912731 66.534579 308.232558 70.697674 
 " style="fill: none; stroke: #8b78c6; stroke-width: 0.8; stroke-linecap: round"/>
    </g>
    <g id="text_4">
-    <text style="font-weight: 700; font-size: 8.4px; font-family: 'Arial'; fill: #4f3f85" transform="translate(348.530233 49.317021)">Imaging–omics and</text>
-    <text style="font-weight: 700; font-size: 8.4px; font-family: 'Arial'; fill: #4f3f85" transform="translate(348.530233 58.146209)">biological representation</text>
+    <text style="fill: #4f3f85; font: 700 8.4px 'Arial'" transform="translate(348.530233 49.480611)">Imaging–omics and</text>
+    <text style="fill: #4f3f85; font: 700 8.4px 'Arial'" transform="translate(348.530233 57.982619)">biological representation</text>
    </g>
    <g id="text_5">
-    <text style="font-style: italic; font-size: 7.8px; font-family: 'Arial'; text-anchor: start; fill: #1f2933" x="348.530233" y="73.443518" transform="rotate(-0 348.530233 73.443518)">Md Tauhidul Islam</text>
+    <text style="fill: #1f2933; font: italic 7.8px 'Arial'" transform="translate(348.530233 73.463619)">Md Tauhidul Islam</text>
+    <text style="fill: #1f2933; font: italic 7.8px 'Arial'" transform="translate(348.530233 81.155272)">Anwesha Sarkar</text>
    </g>
    <g id="text_6">
-    <text style="font-size: 7px; font-family: 'Arial'; fill: #4a5763" transform="translate(348.530233 87.223177)">molecular data</text>
-    <text style="font-size: 7px; font-family: 'Arial'; fill: #4a5763" transform="translate(348.530233 93.794837)">structured representations</text>
+    <text style="fill: #4a5763; font: 7px 'Arial'" transform="translate(348.530233 95.880002)">molecular data · AFM imaging</text>
+    <text style="fill: #4a5763; font: 7px 'Arial'" transform="translate(348.530233 102.864799)">structured representations</text>
    </g>
    <g id="patch_10">
-    <path d="M 166.781297 221.386901 
-Q 175.646463 223.80973 184.511628 226.232558 
+    <path d="M 164.813356 220.849068 
+Q 174.662492 223.540813 184.511628 226.232558 
 " style="fill: none; stroke: #2e7d6b; stroke-width: 0.8; stroke-linecap: round"/>
    </g>
    <g id="text_7">
-    <text style="font-weight: 700; font-size: 8.4px; font-family: 'Arial'; fill: #1f5f52" transform="translate(91.88881 207.679812)">Digital health and</text>
-    <text style="font-weight: 700; font-size: 8.4px; font-family: 'Arial'; fill: #1f5f52" transform="translate(88.14031 217.343749)">clinical translation</text>
+    <text style="fill: #1f5f52; font: 700 8.4px 'Arial'" transform="translate(91.88881 207.898527)">Digital health and</text>
+    <text style="fill: #1f5f52; font: 700 8.4px 'Arial'" transform="translate(88.14031 216.400534)">clinical translation</text>
    </g>
    <g id="text_8">
-    <text style="font-style: italic; font-size: 7.8px; font-family: 'Arial'; fill: #1f2933" transform="translate(94.69381 232.433865)">Sheikh Mohammed</text>
-    <text style="font-style: italic; font-size: 7.8px; font-family: 'Arial'; fill: #1f2933" transform="translate(114.641091 240.460857)">Shariful Islam</text>
+    <text style="fill: #1f2933; font: italic 7.8px 'Arial'" transform="translate(94.69381 231.826409)">Sheikh Mohammed</text>
+    <text style="fill: #1f2933; font: italic 7.8px 'Arial'" transform="translate(114.641091 239.518062)">Shariful Islam</text>
    </g>
    <g id="text_9">
-    <text style="font-size: 7px; font-family: 'Arial'; fill: #4a5763" transform="translate(78.244935 254.776665)">wearables · clinical context</text>
-    <text style="font-size: 7px; font-family: 'Arial'; fill: #4a5763" transform="translate(108.582278 261.348326)">patient outcomes</text>
+    <text style="fill: #4a5763; font: 7px 'Arial'" transform="translate(78.244935 254.283808)">wearables · clinical context</text>
+    <text style="fill: #4a5763; font: 7px 'Arial'" transform="translate(108.582278 261.186574)">patient outcomes</text>
    </g>
    <g id="line2d_1">
     <defs>
-     <path id="mac68f5b472" d="M 0 1.3 
+     <path id="m37a5cc00ae" d="M 0 1.3 
 C 0.344764 1.3 0.675454 1.163024 0.919239 0.919239 
 C 1.163024 0.675454 1.3 0.344764 1.3 0 
 C 1.3 -0.344764 1.163024 -0.675454 0.919239 -0.919239 
@@ -173,13 +174,13 @@ C -0.675454 1.163024 -0.344764 1.3 0 1.3
 z
 " style="stroke: #1d4f80"/>
     </defs>
-    <g clip-path="url(#pdc9d81d70e)">
-     <use xlink:href="#mac68f5b472" x="159.767442" y="70.697674" style="fill: #1d4f80; stroke: #1d4f80"/>
+    <g clip-path="url(#pd181a96de5)">
+     <use xlink:href="#m37a5cc00ae" x="159.767442" y="70.697674" style="fill: #1d4f80; stroke: #1d4f80"/>
     </g>
    </g>
    <g id="line2d_2">
     <defs>
-     <path id="mcf69a93c96" d="M 0 1.3 
+     <path id="m8285f5cd69" d="M 0 1.3 
 C 0.344764 1.3 0.675454 1.163024 0.919239 0.919239 
 C 1.163024 0.675454 1.3 0.344764 1.3 0 
 C 1.3 -0.344764 1.163024 -0.675454 0.919239 -0.919239 
@@ -191,13 +192,13 @@ C -0.675454 1.163024 -0.344764 1.3 0 1.3
 z
 " style="stroke: #8b78c6"/>
     </defs>
-    <g clip-path="url(#pdc9d81d70e)">
-     <use xlink:href="#mcf69a93c96" x="308.232558" y="70.697674" style="fill: #8b78c6; stroke: #8b78c6"/>
+    <g clip-path="url(#pd181a96de5)">
+     <use xlink:href="#m8285f5cd69" x="308.232558" y="70.697674" style="fill: #8b78c6; stroke: #8b78c6"/>
     </g>
    </g>
    <g id="line2d_3">
     <defs>
-     <path id="meb1b918e3f" d="M 0 1.3 
+     <path id="m61f2ff5a08" d="M 0 1.3 
 C 0.344764 1.3 0.675454 1.163024 0.919239 0.919239 
 C 1.163024 0.675454 1.3 0.344764 1.3 0 
 C 1.3 -0.344764 1.163024 -0.675454 0.919239 -0.919239 
@@ -209,18 +210,18 @@ C -0.675454 1.163024 -0.344764 1.3 0 1.3
 z
 " style="stroke: #2e7d6b"/>
     </defs>
-    <g clip-path="url(#pdc9d81d70e)">
-     <use xlink:href="#meb1b918e3f" x="184.511628" y="226.232558" style="fill: #2e7d6b; stroke: #2e7d6b"/>
+    <g clip-path="url(#pd181a96de5)">
+     <use xlink:href="#m61f2ff5a08" x="184.511628" y="226.232558" style="fill: #2e7d6b; stroke: #2e7d6b"/>
     </g>
    </g>
    <g id="patch_11">
-    <path d="M 234 28.329189 
-Q 234 54.108781 234 79.888372 
+    <path d="M 234 28.330869 
+Q 234 54.10962 234 79.888372 
 " style="fill: none; stroke: #7b8794; stroke-width: 0.7; stroke-linecap: round"/>
    </g>
    <g id="text_10">
-    <text style="font-size: 7.6px; font-family: 'Arial'; fill: #1f2933" transform="translate(191.548063 13.358795)">Compute-aware fusion of</text>
-    <text style="font-size: 7.6px; font-family: 'Arial'; fill: #1f2933" transform="translate(188.377437 21.256264)">images and molecular data</text>
+    <text style="fill: #1f2933; font: 7.6px 'Arial'" transform="translate(191.548063 14.12744)">Compute-aware fusion of</text>
+    <text style="fill: #1f2933; font: 7.6px 'Arial'" transform="translate(188.377437 21.73067)">images and molecular data</text>
    </g>
    <g id="patch_12">
     <path d="M 117.400226 162.050147 
@@ -228,9 +229,9 @@ Q 150.24895 164.094841 183.097674 166.139535
 " style="fill: none; stroke: #7b8794; stroke-width: 0.7; stroke-linecap: round"/>
    </g>
    <g id="text_11">
-    <text style="font-size: 7.6px; font-family: 'Arial'; fill: #1f2933" transform="translate(26.63875 153.001642)">Deployable segmentation</text>
-    <text style="font-size: 7.6px; font-family: 'Arial'; fill: #1f2933" transform="translate(49.035 161.745205)">validated in clinical</text>
-    <text style="font-size: 7.6px; font-family: 'Arial'; fill: #1f2933" transform="translate(79.039563 169.77983)">workflows</text>
+    <text style="fill: #1f2933; font: 7.6px 'Arial'" transform="translate(26.63875 153.386725)">Deployable segmentation</text>
+    <text style="fill: #1f2933; font: 7.6px 'Arial'" transform="translate(49.035 161.079017)">validated in clinical</text>
+    <text style="fill: #1f2933; font: 7.6px 'Arial'" transform="translate(79.039563 168.682247)">workflows</text>
    </g>
    <g id="patch_13">
     <path d="M 350.602231 162.094716 
@@ -238,13 +239,13 @@ Q 317.752278 164.117125 284.902326 166.139535
 " style="fill: none; stroke: #7b8794; stroke-width: 0.7; stroke-linecap: round"/>
    </g>
    <g id="text_12">
-    <text style="font-size: 7.6px; font-family: 'Arial'; fill: #1f2933" transform="translate(355.6 153.001642)">Image-derived biomarkers</text>
-    <text style="font-size: 7.6px; font-family: 'Arial'; fill: #1f2933" transform="translate(355.6 161.034486)">linked to patient</text>
-    <text style="font-size: 7.6px; font-family: 'Arial'; fill: #1f2933" transform="translate(355.6 169.672361)">outcomes</text>
+    <text style="fill: #1f2933; font: 7.6px 'Arial'" transform="translate(355.6 153.386725)">Image-derived biomarkers</text>
+    <text style="fill: #1f2933; font: 7.6px 'Arial'" transform="translate(355.6 161.079017)">linked to patient</text>
+    <text style="fill: #1f2933; font: 7.6px 'Arial'" transform="translate(355.6 168.682247)">outcomes</text>
    </g>
    <g id="line2d_4">
     <defs>
-     <path id="mf0489b356e" d="M 0 1.5 
+     <path id="mf1ebf9e28a" d="M 0 1.5 
 C 0.397805 1.5 0.77937 1.341951 1.06066 1.06066 
 C 1.341951 0.77937 1.5 0.397805 1.5 0 
 C 1.5 -0.397805 1.341951 -0.77937 1.06066 -1.06066 
@@ -256,25 +257,25 @@ C -0.77937 1.341951 -0.397805 1.5 0 1.5
 z
 " style="stroke: #3e4c59"/>
     </defs>
-    <g clip-path="url(#pdc9d81d70e)">
-     <use xlink:href="#mf0489b356e" x="234" y="79.888372" style="fill: #3e4c59; stroke: #3e4c59"/>
+    <g clip-path="url(#pd181a96de5)">
+     <use xlink:href="#mf1ebf9e28a" x="234" y="79.888372" style="fill: #3e4c59; stroke: #3e4c59"/>
     </g>
    </g>
    <g id="line2d_5">
-    <g clip-path="url(#pdc9d81d70e)">
-     <use xlink:href="#mf0489b356e" x="183.097674" y="166.139535" style="fill: #3e4c59; stroke: #3e4c59"/>
+    <g clip-path="url(#pd181a96de5)">
+     <use xlink:href="#mf1ebf9e28a" x="183.097674" y="166.139535" style="fill: #3e4c59; stroke: #3e4c59"/>
     </g>
    </g>
    <g id="line2d_6">
-    <g clip-path="url(#pdc9d81d70e)">
-     <use xlink:href="#mf0489b356e" x="284.902326" y="166.139535" style="fill: #3e4c59; stroke: #3e4c59"/>
+    <g clip-path="url(#pd181a96de5)">
+     <use xlink:href="#mf1ebf9e28a" x="284.902326" y="166.139535" style="fill: #3e4c59; stroke: #3e4c59"/>
     </g>
    </g>
    <g id="line2d_7">
     <path d="M 234 137.860465 
-" clip-path="url(#pdc9d81d70e)" style="fill: none; stroke: #c05621; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#pd181a96de5)" style="fill: none; stroke: #c05621; stroke-width: 1.5; stroke-linecap: square"/>
     <defs>
-     <path id="m97e325816e" d="M 0 -6 
+     <path id="mb62689b5ad" d="M 0 -6 
 L -1.347084 -1.854102 
 L -5.706339 -1.854102 
 L -2.179628 0.708204 
@@ -287,37 +288,37 @@ L 1.347084 -1.854102
 z
 " style="stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: bevel"/>
     </defs>
-    <g clip-path="url(#pdc9d81d70e)">
-     <use xlink:href="#m97e325816e" x="234" y="137.860465" style="fill: #c05621; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: bevel"/>
+    <g clip-path="url(#pd181a96de5)">
+     <use xlink:href="#mb62689b5ad" x="234" y="137.860465" style="fill: #c05621; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: bevel"/>
     </g>
    </g>
    <g id="patch_14">
-    <path d="M 337.58556 219.99745 
-Q 287.751131 180.48181 237.916703 140.96617 
+    <path d="M 338.772098 220.938302 
+Q 288.344451 180.952276 237.916804 140.96625 
 " style="fill: none; stroke: #dd6b20; stroke-width: 0.8; stroke-linecap: round"/>
    </g>
    <g id="text_13">
     <g id="patch_15">
-     <path d="M 306.111628 250.451053 
-L 407.96744 250.451053 
-Q 410.69744 250.451053 410.69744 247.721053 
-L 410.69744 223.125459 
-Q 410.69744 220.395459 407.96744 220.395459 
-L 306.111628 220.395459 
-Q 303.381628 220.395459 303.381628 223.125459 
-L 303.381628 247.721053 
-Q 303.381628 250.451053 306.111628 250.451053 
+     <path d="M 306.111628 249.50679 
+L 407.96744 249.50679 
+Q 410.69744 249.50679 410.69744 246.77679 
+L 410.69744 224.069722 
+Q 410.69744 221.339722 407.96744 221.339722 
+L 306.111628 221.339722 
+Q 303.381628 221.339722 303.381628 224.069722 
+L 303.381628 246.77679 
+Q 303.381628 249.50679 306.111628 249.50679 
 z
 " style="fill: #fffaf0; stroke: #dd6b20; stroke-width: 0.8; stroke-linejoin: miter"/>
     </g>
-    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Arial'; fill: #7b341e" transform="translate(306.111628 229.39349)">Reliable, resource-aware</text>
-    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Arial'; fill: #7b341e" transform="translate(306.111628 238.216631)">multimodal vision for</text>
-    <text style="font-weight: 700; font-size: 7.8px; font-family: 'Arial'; fill: #7b341e" transform="translate(306.111628 245.643693)">patient-centered healthcare</text>
+    <text style="fill: #7b341e; font: 700 7.8px 'Arial'" transform="translate(306.111628 229.652816)">Reliable, resource-aware</text>
+    <text style="fill: #7b341e; font: 700 7.8px 'Arial'" transform="translate(306.111628 237.445162)">multimodal vision for</text>
+    <text style="fill: #7b341e; font: 700 7.8px 'Arial'" transform="translate(306.111628 245.237508)">patient-centered healthcare</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="pdc9d81d70e">
+  <clipPath id="pd181a96de5">
    <rect x="0.697674" y="0" width="466.604651" height="273.6"/>
   </clipPath>
  </defs>

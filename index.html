@@ -63,7 +63,7 @@
   <div class="wrap grid g2">
     <div>
       <h2 id="about-h">Why this workshop</h2>
-      <p>Segmentation masks are used as inputs to risk models, histology images are paired with gene expression profiles, and medical images are interpreted alongside wearable signals and health records. In our analysis of recent CVPR, WACV, ICCV, and ECCV papers, only 18% of biomedical vision abstracts mention computational efficiency, and 21% mention generalization, calibration, or fairness.</p>
+      <p>Segmentation masks are used as inputs to risk models, histology images are paired with gene expression profiles, atomic force microscopy (AFM) maps the mechanics of single cells, and medical images are interpreted alongside wearable signals and health records. In our analysis of recent CVPR, WACV, ICCV, and ECCV papers, only 18% of biomedical vision abstracts mention computational efficiency, and 21% mention generalization, calibration, or fairness.</p>
       <p>POPMed will bring together researchers from three communities: <strong>efficient medical vision</strong>, <strong>imaging–omics representation learning</strong>, and <strong>digital health</strong>. We will ask every contribution to report <em>accuracy</em>, <em>computational requirements</em>, and <em>reliability</em> together, which we call the joint reporting standard.</p>
       <p><strong>Why a vision workshop?</strong> Every contribution will use images, video, volumes, or slides as a primary input or output; other modalities add context to a visual task rather than replace it.</p>
     </div>
@@ -92,7 +92,7 @@
       <article class="card lav">
         <span class="tag">Pillar 2</span>
         <h3>Imaging–omics and biological representation</h3>
-        <ul><li>Histology with spatial or bulk transcriptomics</li><li>Radiogenomics and molecular subtyping</li><li>Biologically structured representations</li></ul>
+        <ul><li>Histology with spatial or bulk transcriptomics</li><li>Radiogenomics and molecular subtyping</li><li>Cell and molecular microscopy, including AFM imaging and nanomechanics</li><li>Biologically structured representations</li></ul>
       </article>
       <article class="card teal">
         <span class="tag">Pillar 3</span>
@@ -107,14 +107,14 @@
 <section id="intersection" aria-labelledby="int-h">
   <div class="wrap">
     <h2 id="int-h">Where the expertise meets</h2>
-    <p class="kicker">Each faculty organizer leads research in one pillar, and the workshop topic is the region where all three overlap. The circles show complementary expertise and proposed thematic links; they do not imply that each organizer has published in every overlap.</p>
+    <p class="kicker">The four faculty organizers lead research in the three pillars, with two sharing the imaging–omics pillar, and the workshop topic is the region where all three overlap. The circles show complementary expertise and proposed thematic links; they do not imply that each organizer has published in every overlap.</p>
     <figure class="venn">
-      <a href="assets/expertise_venn_web.svg" title="Open the diagram at full size"><img src="assets/expertise_venn_web.svg" width="650" height="380" alt="Three-circle diagram. Circle one, efficient medical vision and segmentation, Md Mostafijur Rahman. Circle two, imaging–omics and biological representation, Md Tauhidul Islam. Circle three, digital health and clinical translation, Sheikh Mohammed Shariful Islam. Overlaps: compute-aware fusion of images and molecular data; deployable segmentation validated in clinical workflows; image-derived biomarkers linked to patient outcomes. Center: reliable, resource-aware multimodal vision for patient-centered healthcare."></a>
+      <a href="assets/expertise_venn_web.svg" title="Open the diagram at full size"><img src="assets/expertise_venn_web.svg" width="650" height="380" alt="Three-circle diagram. Circle one, efficient medical vision and segmentation, Md Mostafijur Rahman. Circle two, imaging–omics and biological representation, Md Tauhidul Islam and Anwesha Sarkar. Circle three, digital health and clinical translation, Sheikh Mohammed Shariful Islam. Overlaps: compute-aware fusion of images and molecular data; deployable segmentation validated in clinical workflows; image-derived biomarkers linked to patient outcomes. Center: reliable, resource-aware multimodal vision for patient-centered healthcare."></a>
       <figcaption>Complementary organizer expertise and the workshop's intersection. Tap the diagram to open it full size.</figcaption>
     </figure>
     <dl class="venn-text" aria-label="Diagram in text form">
       <div><dt>Efficient medical vision and segmentation</dt><dd>Md Mostafijur Rahman</dd></div>
-      <div><dt>Imaging–omics and biological representation</dt><dd>Md Tauhidul Islam</dd></div>
+      <div><dt>Imaging–omics and biological representation</dt><dd>Md Tauhidul Islam, Anwesha Sarkar</dd></div>
       <div><dt>Digital health and clinical translation</dt><dd>Sheikh Mohammed Shariful Islam</dd></div>
       <div class="center"><dt>Where all three meet</dt><dd>Reliable, resource-aware multimodal vision for patient-centered healthcare</dd></div>
     </dl>
@@ -128,6 +128,7 @@
       <ul>
         <li>Efficient 2D/3D medical image segmentation, detection, and registration</li>
         <li>Imaging–omics integration and biologically structured representations</li>
+        <li>Cell and molecular microscopy, including atomic force microscopy (AFM) imaging, nanomechanical maps, and their links to omics</li>
         <li>Imaging with health records, clinical text, wearables, and longitudinal data</li>
         <li>Learning with missing modalities and limited paired or labeled data</li>
         <li>Cross-institution generalization, calibration, uncertainty, and subgroup fairness</li>
@@ -223,28 +224,10 @@
 <section id="organizers" aria-labelledby="org-h">
   <div class="wrap">
     <h2 id="org-h">Organizers</h2>
-    <p class="kicker">Organizing roles are being finalized by the team. Photos are from each organizer's institutional or personal website.</p>
+    <p class="kicker">Organizers are listed by Google Scholar citation count, highest first. Organizing roles are being finalized by the team. Photos are from each organizer's institutional or personal website.</p>
     <div class="people">
       <article class="card person">
-        <img class="avatar" src="assets/people/rahman.jpg" width="80" height="80" alt="Headshot of Md Mostafijur Rahman" loading="lazy">
-        <div>
-          <h3>Md Mostafijur Rahman</h3>
-          <p class="aff">Assistant Professor, Electrical and Computer Engineering, Texas Tech University</p>
-          <p>Efficient and reliable medical image segmentation in 2D and 3D, including EMCAD (CVPR 2024) and EffiDec3D (CVPR 2025).</p>
-          <p class="links"><a href="https://mostafij-rahman.github.io/">Website</a></p>
-        </div>
-      </article>
-      <article class="card person">
-        <img class="avatar" src="assets/people/tauhidul.jpg" width="80" height="80" alt="Headshot of Md Tauhidul Islam" loading="lazy">
-        <div>
-          <h3>Md Tauhidul Islam</h3>
-          <p class="aff">Assistant Professor, Radiation Oncology, Stanford University</p>
-          <p>Biologically structured, image-like representations of omics data and multimodal models that integrate imaging and molecular signals.</p>
-          <p class="links"><a href="https://med.stanford.edu/profiles/md-tauhidul-islam">Profile</a></p>
-        </div>
-      </article>
-      <article class="card person">
-        <img class="avatar" src="assets/people/shariful.jpg" width="80" height="80" alt="Headshot of Sheikh Mohammed Shariful Islam" loading="lazy">
+        <img class="avatar" src="assets/people/shariful.jpg" width="96" height="96" alt="Headshot of Sheikh Mohammed Shariful Islam" loading="lazy">
         <div>
           <h3>Sheikh Mohammed Shariful Islam</h3>
           <p class="aff">Professor, Nutritional Sciences, Texas Tech University</p>
@@ -253,7 +236,34 @@
         </div>
       </article>
       <article class="card person">
-        <img class="avatar" src="assets/people/howlader.jpg" width="80" height="80" alt="Headshot of Koushik Howlader" loading="lazy">
+        <img class="avatar" src="assets/people/rahman.jpg" width="96" height="96" alt="Headshot of Md Mostafijur Rahman" loading="lazy">
+        <div>
+          <h3>Md Mostafijur Rahman</h3>
+          <p class="aff">Assistant Professor, Electrical and Computer Engineering, Texas Tech University</p>
+          <p>Efficient and reliable medical image segmentation in 2D and 3D, including EMCAD (CVPR 2024) and EffiDec3D (CVPR 2025).</p>
+          <p class="links"><a href="https://mostafij-rahman.github.io/">Website</a></p>
+        </div>
+      </article>
+      <article class="card person">
+        <img class="avatar" src="assets/people/tauhidul.jpg" width="96" height="96" alt="Headshot of Md Tauhidul Islam" loading="lazy">
+        <div>
+          <h3>Md Tauhidul Islam</h3>
+          <p class="aff">Assistant Professor, Radiation Oncology, Stanford University</p>
+          <p>Biologically structured, image-like representations of omics data and multimodal models that integrate imaging and molecular signals.</p>
+          <p class="links"><a href="https://med.stanford.edu/profiles/md-tauhidul-islam">Profile</a></p>
+        </div>
+      </article>
+      <article class="card person">
+        <img class="avatar" src="assets/people/sarkar.jpg" width="96" height="96" alt="Headshot of Anwesha Sarkar" loading="lazy">
+        <div>
+          <h3>Anwesha Sarkar</h3>
+          <p class="aff">Assistant Professor, Electrical and Computer Engineering, Iowa State University</p>
+          <p>Atomic force microscopy of live cells and biomolecules, nanomechanics linked to omics, and deep learning for AFM imaging and analysis.</p>
+          <p class="links"><a href="https://www.engineering.iastate.edu/people/profile/anweshas/">Profile</a> <a href="https://sites.google.com/iastate.edu/bacm-lab/home">Lab</a></p>
+        </div>
+      </article>
+      <article class="card person">
+        <img class="avatar" src="assets/people/howlader.jpg" width="96" height="96" alt="Headshot of Koushik Howlader" loading="lazy">
         <div>
           <h3>Koushik Howlader</h3>
           <p class="aff">Ph.D. student, Computer Science, Iowa State University</p>
@@ -262,7 +272,7 @@
         </div>
       </article>
       <article class="card person">
-        <img class="avatar" src="assets/people/roy.jpg" width="80" height="80" alt="Headshot of Tirtho Roy" loading="lazy">
+        <img class="avatar" src="assets/people/roy.jpg" width="96" height="96" alt="Headshot of Tirtho Roy" loading="lazy">
         <div>
           <h3>Tirtho Roy</h3>
           <p class="aff">Researcher, Translational AI Center, Iowa State University</p>
@@ -297,7 +307,7 @@
 <footer>
   <div class="wrap">
     <p><strong>Status:</strong> Proposed CVPR 2027 workshop: acceptance pending. Not an official CVPR page.</p>
-    <p>Last updated 27 October 2026. Figures and data were produced by the organizers; see the project repository for sources and methods.</p>
+    <p>Last updated 28 October 2026. Figures and data were produced by the organizers; see the project repository for sources and methods.</p>
   </div>
 </footer>
 
