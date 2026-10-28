@@ -168,3 +168,28 @@ footer p { margin: 0 0 8px; }
 
 .pc-h { margin: 28px 0 6px; }
 .pc { color: var(--ink-2); margin: 0; }
+
+/* Hero with scale carousel */
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 40px; align-items: center; }
+@media (max-width: 980px) { .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; } }
+.hero-grid > * { min-width: 0; }
+.status { max-width: 100%; white-space: normal; }
+.scales { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px; box-shadow: 0 6px 24px rgba(29, 39, 51, .06); }
+.scales .track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; border-radius: 10px; }
+.scales .track::-webkit-scrollbar { display: none; }
+.slide { flex: 0 0 100%; scroll-snap-align: start; margin: 0; background: var(--tint); border-radius: 10px; padding: 14px 14px 12px; }
+.slide svg { display: block; width: 100%; height: auto; }
+.slide figcaption { margin-top: 8px; font-size: .92rem; color: var(--ink-2); min-height: 3em; }
+.slide figcaption b { display: block; font-family: var(--serif); font-size: 1.1rem; color: var(--ink); }
+.scales .controls { display: none; align-items: center; justify-content: center; gap: 10px; margin-top: 10px; }
+.js .scales .controls { display: flex; }
+.scales .nav, .scales .play { background: none; border: 1px solid var(--line); border-radius: 8px; font: inherit; color: var(--ink-2); cursor: pointer; }
+.scales .nav { width: 34px; height: 30px; font-size: 1.2rem; line-height: 1; }
+.scales .play { padding: 4px 10px; font-size: .82rem; }
+.scales .nav:hover, .scales .play:hover { background: var(--tint-blue); color: var(--ink); }
+.dots { display: flex; gap: 6px; }
+.dot { width: 9px; height: 9px; padding: 0; border-radius: 50%; border: 0; background: #c9ced4; cursor: pointer; }
+.dot[aria-current="true"] { background: var(--accent); width: 22px; border-radius: 5px; }
+.afm-tip { animation: afm 3.2s ease-in-out infinite; }
+@keyframes afm { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@media (prefers-reduced-motion: reduce) { .afm-tip { animation: none; } }
