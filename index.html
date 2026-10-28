@@ -64,7 +64,7 @@
     <div>
       <h2 id="about-h">Why this workshop</h2>
       <p>Segmentation masks are used as inputs to risk models, histology images are paired with gene expression profiles, atomic force microscopy (AFM) maps the mechanics of single cells, and medical images are interpreted alongside wearable signals and health records. In our analysis of recent CVPR, WACV, ICCV, and ECCV papers, only 18% of biomedical vision abstracts mention computational efficiency, and 21% mention generalization, calibration, or fairness.</p>
-      <p>RES-Med will bring together researchers from three communities: <strong>efficient medical vision</strong>, <strong>imaging–omics representation learning</strong>, and <strong>digital health</strong>. We will ask every contribution to report <em>accuracy</em>, <em>computational requirements</em>, and <em>reliability</em> together, which we call the joint reporting standard.</p>
+      <p>RES-Med will bring together researchers from four communities: <strong>efficient medical vision</strong>, <strong>imaging–omics representation learning</strong>, <strong>cell microscopy and nanomechanics</strong>, and <strong>digital health</strong>. We will ask every contribution to report <em>accuracy</em>, <em>computational requirements</em>, and <em>reliability</em> together, which we call the joint reporting standard.</p>
       <p><strong>Why a vision workshop?</strong> Every contribution will use images, video, volumes, or slides as a primary input or output; other modalities add context to a visual task rather than replace it.</p>
     </div>
     <div>
@@ -82,8 +82,8 @@
 <section id="pillars" aria-labelledby="pillars-h">
   <div class="wrap">
     <h2 id="pillars-h">Research pillars</h2>
-    <p class="kicker">The workshop has three scientific axes and a set of shared constraints.</p>
-    <div class="grid g3">
+    <p class="kicker">The workshop has four scientific axes and a set of shared constraints.</p>
+    <div class="grid g4">
       <article class="card blue">
         <span class="tag">Pillar 1</span>
         <h3>Efficient medical vision and segmentation</h3>
@@ -92,12 +92,17 @@
       <article class="card lav">
         <span class="tag">Pillar 2</span>
         <h3>Imaging–omics and biological representation</h3>
-        <ul><li>Histology with spatial or bulk transcriptomics</li><li>Radiogenomics and molecular subtyping</li><li>Cell and molecular microscopy, including AFM imaging and nanomechanics</li><li>Biologically structured representations</li></ul>
+        <ul><li>Histology with spatial or bulk transcriptomics</li><li>Radiogenomics and molecular subtyping</li><li>Biologically structured representations</li></ul>
       </article>
       <article class="card teal">
         <span class="tag">Pillar 3</span>
         <h3>Digital health and clinical translation</h3>
         <ul><li>Imaging with health records and clinical text</li><li>Wearable and physiological signals</li><li>Outcomes, workflow, and external validation</li></ul>
+      </article>
+      <article class="card rose">
+        <span class="tag">Pillar 4</span>
+        <h3>Cell microscopy and nanomechanics</h3>
+        <ul><li>Atomic force microscopy (AFM) of live cells and biomolecules</li><li>Nanomechanical maps linked to molecular state</li><li>Learning for automated microscopy and analysis</li></ul>
       </article>
     </div>
     <p class="strip"><b>Cross-cutting:</b> limited labels and paired data · missing modalities · cross-institution generalization and calibration · interpretability grounded in biology or anatomy · compute, memory, and latency · fairness, privacy, and clinically meaningful evaluation.</p>
@@ -107,16 +112,17 @@
 <section id="intersection" aria-labelledby="int-h">
   <div class="wrap">
     <h2 id="int-h">Where the expertise meets</h2>
-    <p class="kicker">The four faculty organizers lead research in the three pillars, with two sharing the imaging–omics pillar, and the workshop topic is the region where all three overlap. The circles show complementary expertise and proposed thematic links; they do not imply that each organizer has published in every overlap.</p>
+    <p class="kicker">Each organizer leads research in one pillar, and the workshop topic is the region where all four overlap. The circles show complementary expertise and proposed thematic links; they do not imply that each organizer has published in every overlap.</p>
     <figure class="venn">
-      <a href="assets/expertise_venn_web.svg" title="Open the diagram at full size"><img src="assets/expertise_venn_web.svg" width="650" height="380" alt="Three-circle diagram. Circle one, efficient medical vision and segmentation, Md Mostafijur Rahman. Circle two, imaging–omics and biological representation, Md Tauhidul Islam and Anwesha Sarkar. Circle three, digital health and clinical translation, Sheikh Mohammed Shariful Islam. Overlaps: compute-aware fusion of images and molecular data; deployable segmentation validated in clinical workflows; image-derived biomarkers linked to patient outcomes. Center: reliable, resource-aware multimodal vision for patient-centered healthcare."></a>
+      <a href="assets/expertise_venn_web.svg" title="Open the diagram at full size"><img src="assets/expertise_venn_web.svg" width="650" height="402" alt="Four equal overlapping circles. Efficient medical vision and segmentation, Md Mostafijur Rahman. Imaging–omics and biological representation, Md Tauhidul Islam. Cell microscopy and nanomechanics, Anwesha Sarkar. Digital health and clinical translation, Sheikh Mohammed Shariful Islam. Overlaps between neighbouring circles: compute-aware fusion of images and molecular data; cell images and mechanics linked to molecular state; cell- and image-derived biomarkers linked to patient outcomes; deployable segmentation validated in clinical workflows. Center, where all four meet: reliable, resource-aware multimodal vision for patient-centered healthcare."></a>
       <figcaption>Complementary organizer expertise and the workshop's intersection. Tap the diagram to open it full size.</figcaption>
     </figure>
     <dl class="venn-text" aria-label="Diagram in text form">
       <div><dt>Efficient medical vision and segmentation</dt><dd>Md Mostafijur Rahman</dd></div>
-      <div><dt>Imaging–omics and biological representation</dt><dd>Md Tauhidul Islam, Anwesha Sarkar</dd></div>
+      <div><dt>Imaging–omics and biological representation</dt><dd>Md Tauhidul Islam</dd></div>
+      <div><dt>Cell microscopy and nanomechanics</dt><dd>Anwesha Sarkar</dd></div>
       <div><dt>Digital health and clinical translation</dt><dd>Sheikh Mohammed Shariful Islam</dd></div>
-      <div class="center"><dt>Where all three meet</dt><dd>Reliable, resource-aware multimodal vision for patient-centered healthcare</dd></div>
+      <div class="center"><dt>Where all four meet</dt><dd>Reliable, resource-aware multimodal vision for patient-centered healthcare</dd></div>
     </dl>
   </div>
 </section>
@@ -262,25 +268,9 @@
           <p class="links"><a href="https://www.engineering.iastate.edu/people/profile/anweshas/">Profile</a> <a href="https://sites.google.com/iastate.edu/bacm-lab/home">Lab</a></p>
         </div>
       </article>
-      <article class="card person">
-        <img class="avatar" src="assets/people/howlader.jpg" width="96" height="96" alt="Headshot of Koushik Howlader" loading="lazy">
-        <div>
-          <h3>Koushik Howlader</h3>
-          <p class="aff">Ph.D. student, Computer Science, Iowa State University</p>
-          <p>Deep learning for medical imaging, including multimodal pre-training on X-rays, ECGs, and reports.</p>
-          <p class="links"><a href="https://www.cs.iastate.edu/people/koushik-howlader">Profile</a></p>
-        </div>
-      </article>
-      <article class="card person">
-        <img class="avatar" src="assets/people/roy.jpg" width="96" height="96" alt="Headshot of Tirtho Roy" loading="lazy">
-        <div>
-          <h3>Tirtho Roy</h3>
-          <p class="aff">Researcher, Translational AI Center, Iowa State University</p>
-          <p>Calibration of medical vision–language models and vision–language agents.</p>
-          <p class="links"><a href="https://tirtho149.github.io/">Website</a></p>
-        </div>
-      </article>
     </div>
+    <h3 class="pc-h">Program committee</h3>
+    <p class="pc">Koushik Howlader (Ph.D. student, Computer Science, Iowa State University) and Tirtho Roy (Translational AI Center, Iowa State University). Further reviewers will be listed after they agree.</p>
   </div>
 </section>
 
@@ -297,7 +287,7 @@
     </div>
     <div id="contact">
       <h2>Contact</h2>
-      <p>Questions about the proposal: <a href="mailto:tirtho@iastate.edu?subject=RES-Med%20CVPR%202027%20workshop">tirtho@iastate.edu</a> (Tirtho Roy, coordinating organizer).</p>
+      <p>Questions about the proposal: <a href="mailto:mostafijur.rahman@ttu.edu?subject=RES-Med%20CVPR%202027%20workshop">mostafijur.rahman@ttu.edu</a> (Md Mostafijur Rahman, primary liaison).</p>
       <p class="kicker">The RES-Med site describes a workshop proposal and is not affiliated with or endorsed by CVPR, IEEE, or the Computer Vision Foundation.</p>
     </div>
   </div>
